@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+/* Add this */
+
+.bod {
+    max-width: 900px;
+    /* Limit width like a PDF */
+    margin: 0 auto;
+    /* Centers the container */
+    padding: 40px 50px;
+    /* Add space inside (top/bottom, left/right) */
+    background-color: rgb(251, 223, 223);
+    box-shadow: 0 0 10px rgba(97, 4, 47, 0.1);
+    /* Optional: slight shadow */
+}
+
+.titlee,
+.contents,
+.contentright,
+.About {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contents,
+.contentright,
+.contentsl {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.leng {
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #83043d;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #555;
+}
+
+.bullets {
+    margin-left: 150px;
+    list-style-type: disc;
+}
+
+.para {
+    margin-left: 120px;
+}
+
+.ital {
+    margin-left: 198px;
+    font-size: 17px;
+}
+
+.l {
+    margin-left: 150px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 10px;
+}

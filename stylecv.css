@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+/* Add this */
+
+.bod {
+    max-width: 900px;
+    /* Limit width like a PDF */
+    margin: 0 auto;
+    /* Centers the container */
+    padding: 40px 50px;
+    /* Add space inside (top/bottom, left/right) */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(97, 4, 47, 0.1);
+    /* Optional: slight shadow */
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #d78808
+}
+
+h2 {
+    text-align: center;
+    color: #d78808;
+    font-family: 'Times New Roman';
+}
+
+.bold {
+    border: 3px solid #d78808;
+}
+
+.contents,
+.contentright,
+.contentsl {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.section-title::before,
+.section-title::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #d78808;
+    /* or use #DAA520 */
+}
+
+.section-title span {
+    padding: 0 15px;
+    font-family: 'Times New Roman', serif;
+    color: #d78808;
+    /* or use #DAA520 */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.para {
+    font-size: 17px;
+}
+
+.p {
+    line-height: 0.3;
+}
